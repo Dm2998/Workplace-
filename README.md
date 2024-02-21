@@ -14,6 +14,11 @@ Project 24 Placement Intern
 <p>Microsoft.EntityFrameworkCore.Tools
 <p>Microsoft.EntityFrameworkCore.SqlServer
 
+
+<br>
+
+![image](https://github.com/Dm2998/Workplace-/assets/114578666/6c98f9e1-aae5-43b5-94b6-49bba3cf69fa)
+
 <br>
 
 install Entity Framework Core in .NET. Entity Framework Core is an object-relational mapper (ORM) that enables you to work with relational databases using objects.
