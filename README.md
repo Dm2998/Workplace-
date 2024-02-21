@@ -12,10 +12,12 @@ Project 24 Placement Intern
 
 
 <br>
-#Microsoft.AspNetCore.Identity.EntityFrameworkCore
-#Microsoft.EntityFrameworkCore.Tools
-#Microsoft.EntityFrameworkCore.SqlServer
-'
+'Microsoft.AspNetCore.Identity.EntityFrameworkCore'
+'Microsoft.EntityFrameworkCore.Tools'
+'Microsoft.EntityFrameworkCore.SqlServer'
+
+<br>
+
 install Entity Framework Core in .NET. Entity Framework Core is an object-relational mapper (ORM) that enables you to work with relational databases using objects.
 
 Here are the steps on how to get the packages listed in the image:
