@@ -12,9 +12,9 @@ Project 24 Placement Intern
 
 
 <br>
-Microsoft.AspNetCore.Identity.EntityFrameworkCore
-Microsoft.EntityFrameworkCore.Tools
-Microsoft.EntityFrameworkCore.SqlServer
+#Microsoft.AspNetCore.Identity.EntityFrameworkCore
+#Microsoft.EntityFrameworkCore.Tools
+#Microsoft.EntityFrameworkCore.SqlServer
 
 <br>
 
