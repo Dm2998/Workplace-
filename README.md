@@ -9,7 +9,8 @@ Project 24 Placement Intern
 
 <br>
 "
--- Create Car table
+<p>-- Create Car table
+  <br>
 CREATE TABLE hi_Car (
   CarID int NOT NULL PRIMARY KEY,
   Model varchar(50) NOT NULL,
@@ -20,7 +21,8 @@ CREATE TABLE hi_Car (
   ImageFile  varbinary(MAX)
 );
 
--- Create Customer table
+<p>-- Create Customer table
+  <br>
 CREATE TABLE hi_Customer (
   CustomerID int NOT NULL PRIMARY KEY,
   Name varchar(50) NOT NULL,
@@ -29,7 +31,8 @@ CREATE TABLE hi_Customer (
   Mobile_No varchar(15) NOT NULL
 );
 
--- Create Inquiries table
+<p>-- Create Inquiries table
+<br>
 CREATE TABLE hi_Inquiry (
   InquiryID int NOT NULL PRIMARY KEY,
   CarID int NOT NULL,
@@ -39,7 +42,8 @@ CREATE TABLE hi_Inquiry (
   FOREIGN KEY (CustomerID) REFERENCES hello_Customer(CustomerID)
 );
 
--- Create Search table
+<p>-- Create Search table
+  <br>
 CREATE TABLE hi_Search (
   SearchID int NOT NULL PRIMARY KEY,
   CarModel varchar(50) NOT NULL,
@@ -48,7 +52,8 @@ CREATE TABLE hi_Search (
   FOREIGN KEY (CustomerID) REFERENCES hello_Customer(CustomerID)
 );
 
--- Create Registration table
+<>br-- Create Registration table
+<br>
 CREATE TABLE hi_Registration (
   RegistrationID int NOT NULL PRIMARY KEY,
   Firstname varchar(50) NOT NULL,
@@ -62,31 +67,32 @@ CREATE TABLE hi_Registration (
 
 
 
--- Insert data into hello_Car table
+<p>-- Insert data into hello_Car table
+<br>
 INSERT INTO hello_Car (CarID, Model, Price, Year, Color, Quantity, ImageFile)
 VALUES (1, 'Toyota Camry', 25000.00, 2022, 'Blue', 5, 'camry.jpg');
 
--- Insert data into hello_Customer table
-INSERT INTO hello_Customer (CustomerID, Name, Address, Email, Mobile_No)
+<p>-- Insert data into hello_Customer table
+<br>
+  INSERT INTO hello_Customer (CustomerID, Name, Address, Email, Mobile_No)
 VALUES (1, 'John Doe', '123 Main St', 'john.doe@example.com', '123-456-7890');
 
--- Insert data into hello_Inquiry table
+<p>-- Insert data into hello_Inquiry table
+<br>
 INSERT INTO hello_Inquiry (InquiryID, CarID, Message, CustomerID)
 VALUES (1, 1, 'I'm interested in the Toyota Camry.', 1);
 
--- Insert data into hello_Search table
+<p>-- Insert data into hello_Search table
+<br>
 INSERT INTO hello_Search (SearchID, CarModel, SearchDate, CustomerID)
 VALUES (1, 'Toyota Camry', '2024-02-15', 1);
 
--- Insert data into hello_Registration table
-INSERT INTO hello_Registration (RegistrationID, Firstname, Lastname, Email, Address, PhoneNumber)
+<p>-- Insert data into hello_Registration table
+
+  <br>
+  INSERT INTO hello_Registration (RegistrationID, Firstname, Lastname, Email, Address, PhoneNumber)
 VALUES (1, 'Jane', 'Doe', 'jane.doe@example.com', '456 Oak St', '987-654-3210');
 
-
-
-
-
-"
 
 
 
