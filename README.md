@@ -96,7 +96,7 @@ VALUES (1, 'Jane', 'Doe', 'jane.doe@example.com', '456 Oak St', '987-654-3210');
 
 
 <br>
-<h3> package to Install</h3>
+<h3> Package to Install</h3>
 
 <br>
 <p>Microsoft.AspNetCore.Identity.EntityFrameworkCore
