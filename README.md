@@ -1,5 +1,5 @@
 # Workplace-Feb24.
-Project 24 Placement Intern  
+Project 24 Placement Intern.
 <p>Databases
 
 <p>Page Delete, edit, Create. 
